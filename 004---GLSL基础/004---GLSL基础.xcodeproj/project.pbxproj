@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53EDDD0324614A5F00944056 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EDDD0224614A5F00944056 /* AppDelegate.m */; };
+		53EDDD0624614A5F00944056 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EDDD0524614A5F00944056 /* SceneDelegate.m */; };
+		53EDDD0924614A5F00944056 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EDDD0824614A5F00944056 /* ViewController.m */; };
+		53EDDD0C24614A5F00944056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53EDDD0A24614A5F00944056 /* Main.storyboard */; };
+		53EDDD0E24614A6000944056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53EDDD0D24614A6000944056 /* Assets.xcassets */; };
+		53EDDD1124614A6000944056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53EDDD0F24614A6000944056 /* LaunchScreen.storyboard */; };
+		53EDDD1424614A6000944056 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EDDD1324614A6000944056 /* main.m */; };
+		53EDDD1E24614A6000944056 /* _04___GLSL__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EDDD1D24614A6000944056 /* _04___GLSL__Tests.m */; };
+		53EDDD2924614A6000944056 /* _04___GLSL__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EDDD2824614A6000944056 /* _04___GLSL__UITests.m */; };
+		53EDDD3724614AE900944056 /* note.c in Sources */ = {isa = PBXBuildFile; fileRef = 53EDDD3624614AE900944056 /* note.c */; };
+		53EDDD39246153CF00944056 /* shaderv.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 53EDDD38246153CF00944056 /* shaderv.vsh */; };
+		53EDDD3B2461555700944056 /* shaderf.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 53EDDD3A2461555700944056 /* shaderf.fsh */; };
+		53EDDD3E24615B9100944056 /* CCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EDDD3D24615B9100944056 /* CCView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53EDDD1A24614A6000944056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53EDDCF624614A5F00944056 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53EDDCFD24614A5F00944056;
+			remoteInfo = "004---GLSL基础";
+		};
+		53EDDD2524614A6000944056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53EDDCF624614A5F00944056 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53EDDCFD24614A5F00944056;
+			remoteInfo = "004---GLSL基础";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53EDDCFE24614A5F00944056 /* 004---GLSL基础.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "004---GLSL基础.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53EDDD0124614A5F00944056 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53EDDD0224614A5F00944056 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53EDDD0424614A5F00944056 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		53EDDD0524614A5F00944056 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		53EDDD0724614A5F00944056 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		53EDDD0824614A5F00944056 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		53EDDD0B24614A5F00944056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53EDDD0D24614A6000944056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53EDDD1024614A6000944056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53EDDD1224614A6000944056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53EDDD1324614A6000944056 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53EDDD1924614A6000944056 /* 004---GLSL基础Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "004---GLSL基础Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53EDDD1D24614A6000944056 /* _04___GLSL__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_04___GLSL__Tests.m"; sourceTree = "<group>"; };
+		53EDDD1F24614A6000944056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53EDDD2424614A6000944056 /* 004---GLSL基础UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "004---GLSL基础UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53EDDD2824614A6000944056 /* _04___GLSL__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_04___GLSL__UITests.m"; sourceTree = "<group>"; };
+		53EDDD2A24614A6000944056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53EDDD3624614AE900944056 /* note.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = note.c; sourceTree = "<group>"; };
+		53EDDD38246153CF00944056 /* shaderv.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shaderv.vsh; sourceTree = "<group>"; };
+		53EDDD3A2461555700944056 /* shaderf.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shaderf.fsh; sourceTree = "<group>"; };
+		53EDDD3C24615B9100944056 /* CCView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCView.h; sourceTree = "<group>"; };
+		53EDDD3D24615B9100944056 /* CCView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53EDDCFB24614A5F00944056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53EDDD1624614A6000944056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53EDDD2124614A6000944056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53EDDCF524614A5F00944056 = {
+			isa = PBXGroup;
+			children = (
+				53EDDD0024614A5F00944056 /* 004---GLSL基础 */,
+				53EDDD1C24614A6000944056 /* 004---GLSL基础Tests */,
+				53EDDD2724614A6000944056 /* 004---GLSL基础UITests */,
+				53EDDCFF24614A5F00944056 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53EDDCFF24614A5F00944056 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53EDDCFE24614A5F00944056 /* 004---GLSL基础.app */,
+				53EDDD1924614A6000944056 /* 004---GLSL基础Tests.xctest */,
+				53EDDD2424614A6000944056 /* 004---GLSL基础UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53EDDD0024614A5F00944056 /* 004---GLSL基础 */ = {
+			isa = PBXGroup;
+			children = (
+				53EDDD0124614A5F00944056 /* AppDelegate.h */,
+				53EDDD0224614A5F00944056 /* AppDelegate.m */,
+				53EDDD0424614A5F00944056 /* SceneDelegate.h */,
+				53EDDD0524614A5F00944056 /* SceneDelegate.m */,
+				53EDDD0724614A5F00944056 /* ViewController.h */,
+				53EDDD0824614A5F00944056 /* ViewController.m */,
+				53EDDD3624614AE900944056 /* note.c */,
+				53EDDD38246153CF00944056 /* shaderv.vsh */,
+				53EDDD3A2461555700944056 /* shaderf.fsh */,
+				53EDDD3C24615B9100944056 /* CCView.h */,
+				53EDDD3D24615B9100944056 /* CCView.m */,
+				53EDDD0A24614A5F00944056 /* Main.storyboard */,
+				53EDDD0D24614A6000944056 /* Assets.xcassets */,
+				53EDDD0F24614A6000944056 /* LaunchScreen.storyboard */,
+				53EDDD1224614A6000944056 /* Info.plist */,
+				53EDDD1324614A6000944056 /* main.m */,
+			);
+			path = "004---GLSL基础";
+			sourceTree = "<group>";
+		};
+		53EDDD1C24614A6000944056 /* 004---GLSL基础Tests */ = {
+			isa = PBXGroup;
+			children = (
+				53EDDD1D24614A6000944056 /* _04___GLSL__Tests.m */,
+				53EDDD1F24614A6000944056 /* Info.plist */,
+			);
+			path = "004---GLSL基础Tests";
+			sourceTree = "<group>";
+		};
+		53EDDD2724614A6000944056 /* 004---GLSL基础UITests */ = {
+			isa = PBXGroup;
+			children = (
+				53EDDD2824614A6000944056 /* _04___GLSL__UITests.m */,
+				53EDDD2A24614A6000944056 /* Info.plist */,
+			);
+			path = "004---GLSL基础UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53EDDCFD24614A5F00944056 /* 004---GLSL基础 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53EDDD2D24614A6000944056 /* Build configuration list for PBXNativeTarget "004---GLSL基础" */;
+			buildPhases = (
+				53EDDCFA24614A5F00944056 /* Sources */,
+				53EDDCFB24614A5F00944056 /* Frameworks */,
+				53EDDCFC24614A5F00944056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "004---GLSL基础";
+			productName = "004---GLSL基础";
+			productReference = 53EDDCFE24614A5F00944056 /* 004---GLSL基础.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53EDDD1824614A6000944056 /* 004---GLSL基础Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53EDDD3024614A6000944056 /* Build configuration list for PBXNativeTarget "004---GLSL基础Tests" */;
+			buildPhases = (
+				53EDDD1524614A6000944056 /* Sources */,
+				53EDDD1624614A6000944056 /* Frameworks */,
+				53EDDD1724614A6000944056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53EDDD1B24614A6000944056 /* PBXTargetDependency */,
+			);
+			name = "004---GLSL基础Tests";
+			productName = "004---GLSL基础Tests";
+			productReference = 53EDDD1924614A6000944056 /* 004---GLSL基础Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53EDDD2324614A6000944056 /* 004---GLSL基础UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53EDDD3324614A6000944056 /* Build configuration list for PBXNativeTarget "004---GLSL基础UITests" */;
+			buildPhases = (
+				53EDDD2024614A6000944056 /* Sources */,
+				53EDDD2124614A6000944056 /* Frameworks */,
+				53EDDD2224614A6000944056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53EDDD2624614A6000944056 /* PBXTargetDependency */,
+			);
+			name = "004---GLSL基础UITests";
+			productName = "004---GLSL基础UITests";
+			productReference = 53EDDD2424614A6000944056 /* 004---GLSL基础UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53EDDCF624614A5F00944056 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "小siri";
+				TargetAttributes = {
+					53EDDCFD24614A5F00944056 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					53EDDD1824614A6000944056 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 53EDDCFD24614A5F00944056;
+					};
+					53EDDD2324614A6000944056 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 53EDDCFD24614A5F00944056;
+					};
+				};
+			};
+			buildConfigurationList = 53EDDCF924614A5F00944056 /* Build configuration list for PBXProject "004---GLSL基础" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53EDDCF524614A5F00944056;
+			productRefGroup = 53EDDCFF24614A5F00944056 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53EDDCFD24614A5F00944056 /* 004---GLSL基础 */,
+				53EDDD1824614A6000944056 /* 004---GLSL基础Tests */,
+				53EDDD2324614A6000944056 /* 004---GLSL基础UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53EDDCFC24614A5F00944056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EDDD3B2461555700944056 /* shaderf.fsh in Resources */,
+				53EDDD1124614A6000944056 /* LaunchScreen.storyboard in Resources */,
+				53EDDD0E24614A6000944056 /* Assets.xcassets in Resources */,
+				53EDDD0C24614A5F00944056 /* Main.storyboard in Resources */,
+				53EDDD39246153CF00944056 /* shaderv.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53EDDD1724614A6000944056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53EDDD2224614A6000944056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53EDDCFA24614A5F00944056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EDDD3724614AE900944056 /* note.c in Sources */,
+				53EDDD0924614A5F00944056 /* ViewController.m in Sources */,
+				53EDDD3E24615B9100944056 /* CCView.m in Sources */,
+				53EDDD0324614A5F00944056 /* AppDelegate.m in Sources */,
+				53EDDD1424614A6000944056 /* main.m in Sources */,
+				53EDDD0624614A5F00944056 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53EDDD1524614A6000944056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EDDD1E24614A6000944056 /* _04___GLSL__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53EDDD2024614A6000944056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EDDD2924614A6000944056 /* _04___GLSL__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53EDDD1B24614A6000944056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53EDDCFD24614A5F00944056 /* 004---GLSL基础 */;
+			targetProxy = 53EDDD1A24614A6000944056 /* PBXContainerItemProxy */;
+		};
+		53EDDD2624614A6000944056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53EDDCFD24614A5F00944056 /* 004---GLSL基础 */;
+			targetProxy = 53EDDD2524614A6000944056 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53EDDD0A24614A5F00944056 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53EDDD0B24614A5F00944056 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53EDDD0F24614A6000944056 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53EDDD1024614A6000944056 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53EDDD2B24614A6000944056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53EDDD2C24614A6000944056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53EDDD2E24614A6000944056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "004---GLSL基础/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lpw.com.-04---GLSL--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53EDDD2F24614A6000944056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "004---GLSL基础/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lpw.com.-04---GLSL--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53EDDD3124614A6000944056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "004---GLSL基础Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lpw.com.-04---GLSL--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/004---GLSL基础.app/004---GLSL基础";
+			};
+			name = Debug;
+		};
+		53EDDD3224614A6000944056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "004---GLSL基础Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lpw.com.-04---GLSL--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/004---GLSL基础.app/004---GLSL基础";
+			};
+			name = Release;
+		};
+		53EDDD3424614A6000944056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "004---GLSL基础UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lpw.com.-04---GLSL--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "004---GLSL基础";
+			};
+			name = Debug;
+		};
+		53EDDD3524614A6000944056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "004---GLSL基础UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lpw.com.-04---GLSL--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "004---GLSL基础";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53EDDCF924614A5F00944056 /* Build configuration list for PBXProject "004---GLSL基础" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53EDDD2B24614A6000944056 /* Debug */,
+				53EDDD2C24614A6000944056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53EDDD2D24614A6000944056 /* Build configuration list for PBXNativeTarget "004---GLSL基础" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53EDDD2E24614A6000944056 /* Debug */,
+				53EDDD2F24614A6000944056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53EDDD3024614A6000944056 /* Build configuration list for PBXNativeTarget "004---GLSL基础Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53EDDD3124614A6000944056 /* Debug */,
+				53EDDD3224614A6000944056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53EDDD3324614A6000944056 /* Build configuration list for PBXNativeTarget "004---GLSL基础UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53EDDD3424614A6000944056 /* Debug */,
+				53EDDD3524614A6000944056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53EDDCF624614A5F00944056 /* Project object */;
+}
